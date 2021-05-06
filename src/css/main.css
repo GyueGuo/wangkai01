@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('../font/font.otf'),
+    url('../font/font.svg'),
+    url('../font/font.eot'),
+    url('../font/font.ttf'),
+    url('../font/font.woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1920px;
+  background-color: #00011e;
+  font-family: "myfont";
+
+}
+
+.header {
+  box-sizing: border-box;
+  background: url(../img/header.png) no-repeat;
+  height: 66px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  padding-top: 16px;
+  color: #80a8e3;
+}

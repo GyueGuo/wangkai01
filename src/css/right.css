@@ -1,0 +1,20 @@
+.right-section {
+  width: 480px;
+  float: left;
+}
+.right-section .top-1 {
+  height: 150px;
+  background-image: url(../img/right-top1.png);
+}
+.right-section .top-2 {
+  height: 239px;
+  background-image: url(../img/right-top2.png);
+}
+.right-section .top-3 {
+  height: 281px;
+  background-image: url(../img/right-top3.png);
+}
+.right-section .top-4 {
+  height: 237px;
+  background-image: url(../img/right-top4.png);
+}

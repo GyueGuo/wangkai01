@@ -1,0 +1,13 @@
+.mid-section {
+  float: left;
+  width: 829px;
+  height: 930px;
+  background-image: url(../img/mid.png);
+}
+.mid-section .top-1 {
+  height: 672px;
+  margin-bottom: 23px;
+}
+.mid-section .top-2 {
+  height: 235px;
+}
