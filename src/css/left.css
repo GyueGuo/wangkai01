@@ -1,20 +1,142 @@
 .left-section {
+  position: relative;
   width: 481px;
   float: left;
 }
+
+.left-section h1 {
+  position: absolute;
+  left: 0;
+  top: -28px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.left-section h1::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background-color: #fcef01;
+}
+
+.left-section h2 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 32px;
+  text-indent: 1em;
+}
+
 .left-section .top-1 {
-  height: 142px;
+  position: relative;
+  height: 143px;
   background: url(../img/left-top1.png);
 }
+
+.left-section .top-1 dl {
+  white-space: nowrap;
+  display: flex;
+  align-items: flex-end;
+}
+
+.left-section .top-1 dl:first-child {
+  position: absolute;
+  left: 38px;
+  top: 43px;
+}
+
+.left-section .top-1 dl:nth-child(2) {
+  position: absolute;
+  left: 257px;
+  top: 43px;
+}
+
+.left-section .top-1 dl:nth-child(3) {
+  position: absolute;
+  left: 38px;
+  top: 86px;
+}
+
+.left-section .top-1 dl:nth-child(4) {
+  position: absolute;
+  left: 257px;
+  top: 86px;
+}
+
+.left-section .top-1 dl dt {
+  font-size: 13px;
+  line-height: 1em;
+}
+
+.left-section .top-1 dl dd {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  color: #80a8e3;
+  font-size: 18px;
+  line-height: 1em;
+}
+
 .left-section .top-2 {
+  position: relative;
   height: 236px;
+  margin-top: 10px;
   background: url(../img/left-top2.png);
 }
+
 .left-section .top-3 {
-  height: 236px;
+  position: relative;
+  margin-top: 10px;
+  height: 278px;
   background: url(../img/left-top3.png);
 }
+
+.left-section .top-3 dl {
+  position: absolute;
+  left: 372px;
+}
+
+.left-section .top-3 dl dt {
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.left-section .top-3 dl dd {
+  display: block;
+  position: relative;
+  margin-top: 6px;
+  font-size: 30px;
+  line-height: 1em;
+  color: #fcef01;
+}
+
+.left-section .top-3 dl dd span {
+  position: absolute;
+  left: calc(100% + 6px);
+  top: 0;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.left-section .top-3 dl:nth-child(2) {
+  top: 32px;
+}
+
+.left-section .top-3 dl:nth-child(3) {
+  top: 102px;
+}
+
+.left-section .top-3 dl:nth-child(4) {
+  top: 202px;
+}
+
 .left-section .top-4 {
-  height: 236px;
+  position: relative;
+  margin-top: 10px;
+  height: 246px;
   background: url(../img/left-top4.png);
 }

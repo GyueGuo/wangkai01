@@ -1,20 +1,87 @@
 .right-section {
+  position: relative;
   width: 480px;
   float: left;
 }
+
+.right-section h1 {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.right-section h2 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 32px;
+  text-indent: 1em;
+}
+
 .right-section .top-1 {
   height: 150px;
   background-image: url(../img/right-top1.png);
 }
+
 .right-section .top-2 {
   height: 239px;
+  margin-top: 10px;
   background-image: url(../img/right-top2.png);
 }
+
 .right-section .top-3 {
+  position: relative;
   height: 281px;
+  margin-top: 10px;
   background-image: url(../img/right-top3.png);
 }
+
+.right-section .top-3  .left-part {
+  position: absolute;
+  left: 28px;
+  top: 60px;
+}
+
+.right-section .top-3 dl {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.right-section .top-3 dl dt {
+  position: relative;
+  color: #fcef01;
+  font-size: 26px;
+  line-height: 1em;
+}
+.right-section .top-3 dl dt span {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 6px);
+  font-size: 10px;
+  line-height: 1em;
+}
+.right-section .top-3 dl dd {
+  font-size: 10px;
+  line-height: 1em;
+  margin-left: 16px;
+}
+.right-section .top-3 dl:last-child {
+  margin-bottom: 0;
+}
+
+.right-section .top-3 .right-part {
+  position: absolute;
+  left: 250px;
+  top: 60px;
+}
+
 .right-section .top-4 {
   height: 237px;
+  margin-top: 10px;
   background-image: url(../img/right-top4.png);
 }
