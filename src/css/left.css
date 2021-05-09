@@ -140,3 +140,59 @@
   height: 246px;
   background: url(../img/left-top4.png);
 }
+
+.left-section .top-4 .tab-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 26px;
+}
+.left-section .top-4 .tab-wrap a {
+  float: left;
+  padding: 0 16px;
+}
+.left-section .top-4 .sub-title {
+  position: absolute;
+  top: 130px;
+  left: 15px;
+}
+.left-section .top-4 ul {
+  position: absolute;
+  left: 40px;
+}
+
+.left-section .top-4 ul:nth-of-type(1) {
+  top: 60px;
+}
+
+.left-section .top-4 ul:nth-of-type(2) {
+  top: 170px;
+}
+
+.left-section .top-4 ul li {
+  float: left;
+  margin-right: 70px;
+}
+
+.left-section .top-4 ul li dt {
+  font-size: 10px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.left-section .top-4 ul li dd {
+  position: relative;
+  font-size: 30px;
+  line-height: 1em;
+  color: #fcef01;
+}
+
+.left-section .top-4 ul li dd span {
+  position: absolute;
+  left: calc(100% + 6px);
+  top: 0;
+  font-size: 12px;
+  line-height: 1em;
+}
