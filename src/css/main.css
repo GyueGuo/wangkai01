@@ -6,6 +6,22 @@
     url('../font/font.ttf'),
     url('../font/font.woff');
 }
+@font-face {
+  font-family: 'altgot';
+  src: url('../font/altgot2n_1.otf'),
+    url('../font/altgot2n_1.svg'),
+    url('../font/altgot2n_1.eot'),
+    url('../font/altgot2n_1.ttf'),
+    url('../font/altgot2n_1.woff');
+}
+@font-face {
+  font-family: 'icdn';
+  src: url('../font/lcdn_1.otf'),
+    url('../font/lcdn_1.svg'),
+    url('../font/lcdn_1.eot'),
+    url('../font/lcdn_1.ttf'),
+    url('../font/lcdn_1.woff');
+}
 
 * {
   margin: 0;
@@ -18,7 +34,12 @@ body {
   font-family: "myfont";
   color: #81b9fc;
 }
-
+.icdn {
+  font-family: "icdn";
+}
+.altgot {
+  font-family: "altgot";
+}
 .header {
   box-sizing: border-box;
   background: url(../img/header.png) no-repeat;
