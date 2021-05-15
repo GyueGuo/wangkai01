@@ -41,6 +41,8 @@ ul {
 
 body {
   width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
   background-color: #00011e;
   font-family: "myfont";
   color: #81b9fc;
@@ -66,5 +68,4 @@ body {
 
 .main-wrap {
   margin: 32px auto 0;
-  /* color: #fff */
 }

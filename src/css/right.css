@@ -28,9 +28,166 @@
 }
 
 .right-section .top-2 {
+  position: relative;
   height: 239px;
   margin-top: 10px;
   background-image: url(../img/right-top2.png);
+}
+
+.right-section .top-2 .top-half-circle {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 130px;
+  height: 130px;
+}
+
+.right-section .top-2 .bottom-half-circle {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  width: 130px;
+  height: 130px;
+}
+
+.right-section .top-2 .group-1 {
+  position: absolute;
+  left: 153px;
+  top: 0;
+  width: 164px;
+  height: 100%;
+}
+
+.right-section .top-2 .group-1 .thermometer {
+  position: absolute;
+  top: 40px;
+  left: -6px;
+  height: 400px;
+  width: 400px;
+  transform: scale(0.2);
+  transform-origin: left top;
+}
+
+.right-section .top-2 .group-1 .thermometer.second {
+  left: 90px;
+}
+
+.right-section .top-2 .group-1 .thermometer.third {
+  top: 130px;
+}
+
+.right-section .top-2 .group-1 .thermometer.forth {
+  top: 130px;
+  left: 90px;
+}
+
+.right-section .top-2 .group-1 i {
+  position: absolute;
+  top: 135px;
+  width: 100%;
+  height: 1px;
+  background-color: #81b9fc;
+  opacity: 0.5;
+}
+
+.right-section .top-2 .group-1 i:nth-of-type(1) {
+  left: 0;
+}
+
+.right-section .top-2 .group-1 i:nth-of-type(2) {
+  left: 0px;
+  transform: rotate(90deg);
+}
+
+
+.right-section .top-2 .group-1 dl {
+  position: absolute;
+}
+
+.right-section .top-2 .group-1 dl dt {
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.right-section .top-2 .group-1 dl dd {
+  position: relative;
+  color: #fcef01;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.right-section .top-2 .group-1 dl:nth-of-type(1) {
+  top: 74px;
+  left: 32px;
+}
+
+.right-section .top-2 .group-1 dl:nth-of-type(2) {
+  top: 74px;
+  left: 130px;
+}
+
+.right-section .top-2 .group-1 dl:nth-of-type(3) {
+  top: 166px;
+  left: 32px;
+}
+
+.right-section .top-2 .group-1 dl:nth-of-type(4) {
+  top: 166px;
+  left: 130px;
+}
+
+.right-section .top-2 .group-2 {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 118px;
+  height: 100%;
+  text-align: center;
+}
+
+.right-section .top-2 .group-2 i {
+  position: absolute;
+  top: 135px;
+  height: 1px;
+  background-color: #81b9fc;
+  opacity: 0.5;
+  left: 0;
+  width: 100%;
+}
+
+.right-section .top-2 .group-2 dl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.right-section .top-2 .group-2 dl:nth-of-type(1) {
+  top: 74px;
+}
+
+.right-section .top-2 .group-2 dl:nth-of-type(2) {
+  top: 166px;
+}
+
+.right-section .top-2 .group-2 dl dt {
+  position: relative;
+  margin-bottom: 8px;
+  color: #fcef01;
+  font-size: 26px;
+  line-height: 1em;
+}
+
+.right-section .top-2 .group-2 dl dt span {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.right-section .top-2 .group-2 dl dd {
+  font-size: 10px;
+  line-height: 1em;
 }
 
 .right-section .top-3 {
@@ -40,11 +197,12 @@
   background-image: url(../img/right-top3.png);
 }
 
-.right-section .top-3  .left-part {
+.right-section .top-3 .left-part {
   position: absolute;
   left: 28px;
   top: 60px;
 }
+
 
 .right-section .top-3 dl {
   margin-bottom: 25px;
@@ -58,6 +216,7 @@
   font-size: 26px;
   line-height: 1em;
 }
+
 .right-section .top-3 dl dt span {
   position: absolute;
   top: 0;
@@ -65,11 +224,13 @@
   font-size: 10px;
   line-height: 1em;
 }
+
 .right-section .top-3 dl dd {
   font-size: 10px;
   line-height: 1em;
   margin-left: 16px;
 }
+
 .right-section .top-3 dl:last-child {
   margin-bottom: 0;
 }

@@ -98,10 +98,12 @@
   position: absolute;
   top: 0;
   left: 50%;
+  width: 152px;
   font-size: 16px;
   line-height: 34px;
   transform: translate(-50%, -88%);
   color: #e83828;
+  text-align: center;
 }
 
 .mid-section .top-2 .others {
