@@ -116,6 +116,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .mid-section .top-2 .others .others-top a {
   width: 83px;
   height: 21px;
@@ -124,21 +125,59 @@
   background-image: url(../img/mid-top-2-btn.png);
   background-size: 100%;
 }
+
 .mid-section .top-2 .others .others-bottom {
   display: flex;
   align-items: center;
   margin-top: 22px;
 }
+
 .mid-section .top-2 .others .others-bottom dt {
   margin-right: 22px;
   line-height: 1em;
 }
+
 .mid-section .top-2 .others .others-bottom dd {
+  position: relative;
   width: 384px;
-  height: 4px;
-  border-radius: 2px;
+  height: 8px;
+  border-radius: 4px;
   background-color: #1b244d;
 }
+
+.mid-section .top-2 .others .others-bottom dd .tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #81b9fc, #fcef01);
+  background-size: 384px 4px;
+  transition: width linear 0.1s;
+}
+
+.mid-section .top-2 .others .others-bottom dd .tooltip:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.mid-section .top-2 .others .others-bottom dd .tooltip span {
+  position: absolute;
+  color: #fcef01;
+  font-size: 16px;
+  line-height: 1.2em;
+  bottom: 180%;
+  left: 100%;
+  margin-left: -10px;
+  border-bottom: 1px solid #fcef01;
+}
+
 .mid-section .top-2 li {
   position: relative;
   margin-bottom: 30px;

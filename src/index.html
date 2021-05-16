@@ -158,7 +158,7 @@
           <li>
             <dl>
               <dt>推力值</dt>
-              <dd><i class="icdn">800</i><span class="altgot">N</span></dd>
+              <dd><i class="icdn" style="color: #e83828;">800</i><span class="altgot">Rpm</span></dd>
             </dl>
           </li>
           <li>
@@ -187,7 +187,7 @@
             </div>
             <dl class="others-bottom">
               <dt>油门</dt>
-              <dd></dd>
+              <dd><div class="tooltip" style="width: 80%;"><span class="altgot">80</span></div></dd>
             </dl>
           </div>
           <ul>
@@ -227,6 +227,10 @@
       <h1>Room:1　　　　李四　　　　2021.03.03 14:53:12</h1>
       <div class="top-1">
         <h2>缸温</h2>
+        <div class="temperature-chat" data-text="2#缸头"></div>
+        <div class="temperature-chat second" data-text="3#缸头">></div>
+        <div class="temperature-chat third" data-text="4#缸头">></div>
+        <div class="temperature-chat forth" data-text="5#缸头">></div>
       </div>
       <div class="top-2">
         <h2>其他温度</h2>
@@ -300,39 +304,44 @@
             <dd>环境湿度</dd>
           </dl>
         </div>
+        <div class="pressure-chat"></div>
+        <div class="pressure-chat second"></div>
+        <div class="pressure-chat third"></div>
+        <div class="pressure-chat forth"></div>
         <div class="right-part">
           <dl>
             <dt>
               <div class="altgot">25</div>
-              <span>%</span>
+              <span>Bar</span>
             </dt>
-            <dd>环境湿度</dd>
+            <dd>空气压力</dd>
           </dl>
           <dl>
             <dt>
               <div class="altgot">25</div>
-              <span>o</span>
+              <span>Bar</span>
             </dt>
-            <dd>环境湿度</dd>
+            <dd>空气压力</dd>
           </dl>
           <dl>
             <dt>
               <div class="altgot">25</div>
-              <span>o</span>
+              <span>Bar</span>
             </dt>
-            <dd>环境湿度</dd>
+            <dd>空气压力</dd>
           </dl>
           <dl>
             <dt>
               <div class="altgot">25</div>
-              <span>o</span>
+              <span>Bar</span>
             </dt>
-            <dd>环境湿度</dd>
+            <dd>空气压力</dd>
           </dl>
         </div>
       </div>
       <div class="top-4">
         <h2>图标区</h2>
+        <div id="graph-wrap" class="graph-wrap"></div>
       </div>
     </div>
   </div>

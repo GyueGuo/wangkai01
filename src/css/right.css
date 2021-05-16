@@ -23,10 +23,30 @@
 }
 
 .right-section .top-1 {
+  position: relative;
   height: 150px;
   background-image: url(../img/right-top1.png);
 }
+.right-section .top-1 .temperature-chat {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 200px;
+  height: 200px;
+  transform: scale(0.55);
+  transform-origin: left top;
+}
+.right-section .top-1 .temperature-chat.second {
+  left: 130px;
+}
 
+.right-section .top-1 .temperature-chat.third {
+  left: 240px;
+}
+
+.right-section .top-1 .temperature-chat.forth {
+  left: 350px;
+}
 .right-section .top-2 {
   position: relative;
   height: 239px;
@@ -237,12 +257,45 @@
 
 .right-section .top-3 .right-part {
   position: absolute;
-  left: 250px;
+  left: 302px;
   top: 60px;
 }
 
+.right-section .top-3 .right-part dl dd {
+  margin-left: 32px;
+}
+
+.right-section .top-3 .pressure-chat {
+  position: absolute;
+  left: 230px;
+  top: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.right-section .top-3 .pressure-chat.second {
+  top: 100px;
+}
+
+.right-section .top-3 .pressure-chat.third {
+  top: 150px;
+}
+
+.right-section .top-3 .pressure-chat.forth {
+  top: 200px;
+}
+
 .right-section .top-4 {
+  position: relative;
   height: 237px;
   margin-top: 10px;
   background-image: url(../img/right-top4.png);
+}
+
+.right-section .top-4 .graph-wrap {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  width: 90%;
+  height: 110%;
 }
