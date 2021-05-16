@@ -87,6 +87,213 @@
   left: 42px;
 }
 
+.mid-section .top-1 .chat-wrap {
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap dl {
+  color: #fcef01;
+  position: absolute;
+  right: 0;
+  top: -25px;
+  display: flex;
+}
+
+.mid-section .top-1 .chat-wrap dl dt {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.mid-section .top-1 .chat-wrap dl dd {
+  font-size: 10px;
+  line-height: 1em;
+  margin-left: 2px;
+}
+
+.mid-section .top-1 .chat-wrap .huayou-show {
+  position: absolute;
+  top: 365px;
+  left: 100px;
+  width: 115px;
+  height: 76px;
+  background-image: url(../img/huayou-bg.png);
+  background-size: cover;
+
+}
+
+.mid-section .top-1 .chat-wrap .huayou-show:after {
+  content: "滑油压力";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-1 {
+  position: absolute;
+  top: 443px;
+  left: 110px;
+  width: 104px;
+  height: 6px;
+  background-image: url(../img/paiwen-1-bg.png);
+  background-size: cover;
+
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-1:after {
+  content: "1#排温";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+
+.mid-section .top-1 .chat-wrap .gangwen-3 {
+  position: absolute;
+  top: 545px;
+  left: 80px;
+  width: 142px;
+  height: 6px;
+  background-image: url(../img/gangwen-3-bg.png);
+  background-size: cover;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-3:after {
+  content: "1#缸温";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+
+.mid-section .top-1 .chat-wrap .paiwen-3 {
+  position: absolute;
+  top: 564px;
+  left: 63px;
+  width: 154px;
+  height: 58px;
+  background-image: url(../img/paiwen-3-bg.png);
+  background-size: cover;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-3:after {
+  content: "3#排温";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 2px;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-3 dl {
+  top: auto;
+  bottom: 5px;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-2 {
+  position: absolute;
+  top: 482px;
+  left: 540px;
+  width: 233px;
+  height: 31px;
+  background-image: url(../img/gangwen-2-bg.png);
+  background-size: cover;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-2:after {
+  content: "2缸温度";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 2px;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-2 dl {
+  top: auto;
+  bottom: 5px;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-4 {
+  position: absolute;
+  top: 454px;
+  left: 660px;
+  width: 115px;
+  height: 6px;
+  background-image: url(../img/gangwen-4-bg.png);
+  background-size: cover;
+}
+
+.mid-section .top-1 .chat-wrap .gangwen-4:after {
+  content: "4缸排温";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-2 {
+  position: absolute;
+  top: 500px;
+  left: 375px;
+  width: 131px;
+  height: 65px;
+  background-image: url(../img/paiwen-2-bg.png);
+  background-size: cover;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-2 dl {
+  left: 0;
+  top: auto;
+  bottom: 5px;
+}
+
+.mid-section .top-1 .chat-wrap .paiwen-2:after {
+  content: "4缸排温";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 2px;
+  font-size: 10px;
+  color: #81b9fc;
+}
+
+.mid-section .top-1 .chat-wrap .values {
+  position: absolute;
+  top: 322px;
+  left: 277px;
+  width: 94px;
+  height: 120px;
+  background-image: url(../img/values-bg.png);
+  background-size: cover;
+}
+.mid-section .top-1 .chat-wrap .values dl {
+  left: 0;
+}
+.mid-section .top-1 .chat-wrap .values dl:nth-of-type(2) {
+  left: 0;
+  top: 30px;
+}
+.mid-section .top-1 .chat-wrap .values span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 2px;
+  font-size: 10px;
+  color: #81b9fc;
+}
+.mid-section .top-1 .chat-wrap .values span:nth-of-type(2) {
+  top: 60px;
+}
 .mid-section .top-2 {
   height: 235px;
   position: relative;
