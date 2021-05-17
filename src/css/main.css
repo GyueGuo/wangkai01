@@ -38,7 +38,8 @@ a {
 ul {
   list-style: none;
 }
-
+html {
+}
 body {
   width: 1920px;
   height: 1080px;
@@ -67,5 +68,7 @@ body {
 }
 
 .main-wrap {
+  display: table;
   margin: 32px auto 0;
+  overflow: hidden;
 }
